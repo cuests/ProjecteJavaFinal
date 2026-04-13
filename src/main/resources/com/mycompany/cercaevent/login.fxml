@@ -15,9 +15,9 @@
             <Font name="System Bold" size="13.0" />
          </font></Label>
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="222.0" text="Username" />
-      <TextField VBox.vgrow="ALWAYS" />
+      <TextField promptText="Username" VBox.vgrow="ALWAYS" />
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="252.0" text="Contrasenya" />
-      <PasswordField />
+      <PasswordField promptText="Password" />
       <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Enter" />
    </children>
    <padding>

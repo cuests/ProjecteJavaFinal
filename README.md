@@ -1,1 +1,1 @@
-La primera pantalla, fer una de Login# ProjecteJavaFinal
+La primera pantalla, fer una de Login  ProjecteJavaFinal
