@@ -8,16 +8,16 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="299.0" prefWidth="227.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cercaevent.PrimaryController">
+<VBox alignment="CENTER" prefHeight="299.0" prefWidth="227.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cercaevent.login.LoginController">
    <children>
       <Label text="Login">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Label>
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="222.0" text="Username" />
-      <TextField promptText="Username" VBox.vgrow="ALWAYS" />
+      <TextField fx:id="usuariField" promptText="Username" VBox.vgrow="ALWAYS" />
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="252.0" text="Contrasenya" />
-      <PasswordField promptText="Password" />
+      <PasswordField fx:id="passwordField" promptText="Password" />
       <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Enter" />
    </children>
    <padding>

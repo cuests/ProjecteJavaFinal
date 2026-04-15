@@ -3,5 +3,9 @@ module com.mycompany.cercaevent {
     requires javafx.fxml;
 
     opens com.mycompany.cercaevent to javafx.fxml;
+    opens com.mycompany.cercaevent.login to javafx.fxml;
+    
     exports com.mycompany.cercaevent;
+    exports com.mycompany.cercaevent.login;
 }
+    
