@@ -21,16 +21,17 @@ public class RegisterController {
     private Label msg;
 
     @FXML
-    private void validarUsuari () throws IOException{
+    private void crearUsuari () throws IOException{
         try {
-            ServeisUsuari.existeixUsuari(usuariField.getText(), passwordField.getText());
+            ServeisUsuari.crearUsuari(usuariField.getText(), passwordField.getText());
             App.setRoot("secondary");
-            msg.setText("Usuari validat");
+            msg.setText("Usuari creat");
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
             msg.setText("Error: " + e.getMessage());
             msg.setVisible(true);
         }
+
 
     }
 

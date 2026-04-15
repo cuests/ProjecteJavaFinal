@@ -34,5 +34,9 @@ public class LoginController {
         }
 
     }
-    
+
+    @FXML
+    private void mostrarRegistro() throws IOException {
+        App.setRoot("register");
+    }
 }

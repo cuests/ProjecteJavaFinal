@@ -10,4 +10,13 @@ public class ServeisUsuari {
         }
     }
 
+    public static void crearUsuari (String username, String password) throws Exception {
+        if (username.equals("admin") && password.equals("admin")) {
+            throw new Exception("Usuari ja existeix");
+        } else {
+            // Crea l'usuari
+        }
+
+    }
+
 }

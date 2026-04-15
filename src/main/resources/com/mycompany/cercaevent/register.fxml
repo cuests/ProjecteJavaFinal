@@ -8,19 +8,18 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="299.0" prefWidth="227.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cercaevent.login.LoginController">
+<VBox alignment="CENTER" prefHeight="299.0" prefWidth="227.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cercaevent.login.RegisterController">
    <children>
-      <Label text="Login">
+      <Label text="Registrar">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Label>
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="222.0" text="Username" />
-      <TextField fx:id="usuariField" promptText="Username" VBox.vgrow="ALWAYS" />
+      <TextField fx:id="usuariRegister" promptText="Username" VBox.vgrow="ALWAYS" />
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="252.0" text="Contrasenya" />
-      <PasswordField fx:id="passwordField" promptText="Password" />
-      <Button fx:id="primaryButton" onAction="#validarUsuari" text="Enter" />
-      <Label fx:id="msg" VBox.vgrow="ALWAYS" visible="false" />
-      <Button fx:id="registerButton" onAction="#mostrarRegistro" text="Registrar" />
+      <PasswordField fx:id="passwordRegister" promptText="Password" />
+      <Button fx:id="registerButton" onAction="#crearUsuari" text="Registrar" />
+        <Label fx:id="msg" VBox.vgrow="ALWAYS" visible="false" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
