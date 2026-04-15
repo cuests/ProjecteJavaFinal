@@ -7,5 +7,5 @@ module com.mycompany.cercaevent {
     
     exports com.mycompany.cercaevent;
     exports com.mycompany.cercaevent.login;
+    exports com.mycompany.cercaevent.serveis;
 }
-    

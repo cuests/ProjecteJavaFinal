@@ -18,7 +18,8 @@
       <TextField fx:id="usuariField" promptText="Username" VBox.vgrow="ALWAYS" />
       <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="16.0" prefWidth="252.0" text="Contrasenya" />
       <PasswordField fx:id="passwordField" promptText="Password" />
-      <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Enter" />
+      <Button fx:id="primaryButton" onAction="#validarUsuari" text="Enter" />
+      <Label fx:id="msg" VBox.vgrow="ALWAYS" visible="false" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

@@ -2,8 +2,9 @@ package com.mycompany.cercaevent.login;
 
 import java.io.IOException;
 
-import javafx.fxml.FXML;
 import com.mycompany.cercaevent.App;
+
+import javafx.fxml.FXML;
 
 public class SecondaryController {
 
